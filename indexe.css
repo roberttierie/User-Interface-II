@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans&display=swap');
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;  */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+{
+    box-sizing: border-box;
+    border:1px, solid grey;
+    max-width:100%;
+}
+/* styling */
+
+
+html {
+    font-size:63%
+}
+
+body {
+    font-size:1.8rem;
+    line-height:1.2;
+    font-family: 'EB Garamond', serif;
+    background-color:aliceblue;
+
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:6rem;
+    color:red;
+}
+header h1 {
+    text-align:left;
+    background-color:royalblue;
+}
+nav {
+    background-color: blue;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+
+}
+
+nav a{
+    display:inline-block;
+    width:10%;
+    text-align:center;
+    border-radius:5px;
+    background-color: red;
+    color:white;
+
+
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:4rem;
+    color:indianred;
+
+}
+
+section{
+    padding:4% 0;
+  }
+/*header*/
+
+.headerContent{
+    display:flex;
+    justify-content:space-around;
+    padding:2.5% 0;
+    text-align:center;
+
+  }
+  .headerContent img{
+    border-radius:50%;
+    width: 500px ;
+    height: 100%;
+    
+  }
+
+  .text{
+    width:60%;
+    display:flex;
+    align-items:center;
+  }
+  #collage {
+      display:flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;   
+
+
+  }
+
+ #collage div img {
+    width: 400px ;
+    height: 500px;
+    border-radius:10%;
+    box-shadow:.5rem .5rem 6rem black;
+
+ }
+
+ #collagetwo {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+
+
+}
+
+#collagetwo div img {
+  width: 400px ;
+  height: 500px;
+  border-radius:10%;
+  box-shadow:.5rem .5rem 6rem black;
+
+}
+
+
+#collage div {
+    text-align:center;
+    font-weight: 900;
+    color: blue;
+}
+#collagetwo div {
+    text-align:center;
+    font-weight: 900;
+    color:red;
+
+}
+
+footer {
+    background-color:antiquewhite;
+}
+
+footer section {
+    text-align: center;
+}
+
+
+footer section a {
+    text-size-adjust: 70%;
+    display:inline-block;
+    width:30%;
+    height: 100px;
+    border-radius:10px;
+    background-color:antiquewhite;
+    color:blue;
+    border-style: dashed;
+    border-color: blue;
+
